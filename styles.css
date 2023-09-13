@@ -73,7 +73,6 @@ li{
     margin-top: 20px;
     display: flex;
     justify-content: center;
-   
 
 }
 
@@ -82,15 +81,21 @@ input{
     width: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 35px;
+    padding-right: 10px;
     outline: none;
     border: 1px solid #ebe8e8;
     border-radius: 24px;
-    
-    
-   
+    background: url("./Assets/search_FILL0_wght200_GRAD0_opsz24.png") no-repeat left ;
+    background-size: 25px;
+
 }
+input:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
 .input-icon{
     height: 40px;
     width: 30px;
@@ -119,6 +124,11 @@ input{
     font-family: arial,sans-serif;
     width: max-content;
 }
+.button1:hover{background-color: #fff;
+    box-shadow: 0 1px 1px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
 .button2{
     margin-right: 10px;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
@@ -132,6 +142,12 @@ input{
     cursor: pointer;
     font-family: arial,sans-serif;
     
+}
+.button2:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+
 }
 .lang{
     width: 100%;
@@ -156,22 +172,24 @@ input{
     background-color: #eaebed;
     color: #70757a;
     width: 100%;
-    height: 40px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: end;
     padding-top: 25px;
     font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
-    
-    
+ 
 
 }
+
+
 .bottom-list{
     display: flex;
     gap: 15px;
     padding:0 15px 15px 15px;
     cursor: pointer;
     font-weight: lighter;
+    margin-top: 0%;
 }
 
 
